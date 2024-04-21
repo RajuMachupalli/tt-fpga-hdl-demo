@@ -47,7 +47,7 @@
       @0
          $reset = *reset;
       @1
-         $valid = equal_in
+         //$valid = equal_in
          $val1[7:0] = >>1$out;
          $val2[7:0] = {3'b0, $rand1[4:0]};
          $sum[7:0] = $val1[7:0] + $val2[7:0];
